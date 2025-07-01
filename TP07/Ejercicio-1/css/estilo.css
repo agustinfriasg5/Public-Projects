@@ -1,0 +1,27 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
