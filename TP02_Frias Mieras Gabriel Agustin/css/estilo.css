@@ -1,0 +1,288 @@
+* {
+	margin: 0; 
+	padding: 0;
+	border:0;
+}
+.navegador {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
+	background-color: #013369;
+}
+.navegacion {
+	position: fixed;
+	width: 100vw;
+}
+main {
+	padding-top: 2em;
+}
+img {
+	width: 5em;
+	height: 5em;
+}
+.inicio-barra {
+	text-align: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	/* position: static; */
+}
+header {
+	background-color: #013369;
+	color: white;
+	/* position: fixed; */
+	/* margin-left: 32.5em; */
+	padding-top: 7em;
+}
+h2 {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.primer-parrafo {
+	margin-top: 1em;
+}
+.primer-articulo-historia {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.Primer-imagen {
+	width: 175px;
+	height: 150px;
+}
+.tercer-imagen {
+	width: 175px;
+	height: 150px;
+}
+.cuarta-imagen {
+	width: 175px;
+	height: 150px;
+}
+.primeras-imagenes {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+	margin-top: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.segundas-imagenes {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+.secprimer-imagen {
+	width: 250px;
+	height: 150px;
+}
+.secsegunda-imagen {
+	width: 250px;
+	height: 150px;
+}
+.sectercer-imagen {
+	width: 250px;
+	height: 150px;
+}
+footer {
+	background-color: #013369;
+    color: white;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.primer-epigrafe {
+	text-align: center;
+	padding-bottom: 1em;
+}
+.segundo-epigrafe {
+	text-align: center;
+	padding-bottom: 1em;
+}
+.parrafos {
+		margin-left: 3em;
+		margin-right: 3em;
+}
+.prorroga {
+	margin-bottom: 2em;
+}
+h3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+.compisicon-de-los-equipos {
+	margin-left: 7em;
+}
+body {
+	background-color: #f3f3f0;
+}
+.inicio-del-partido-y-desarrollo {
+	margin-left: 7em;
+}
+.metodos-de-avance {
+	margin-left: 7em;
+}
+.puntuacion {
+	margin-left: 7em;
+}
+.segunda-lista {
+	margin-left: 4em;
+}
+.faltas-y-penalizaciones {
+	margin-left: 7em;
+}
+.cambios-de-posicion {
+	margin-left: 7em;
+}
+.prorroga {
+	margin-left: 7em;
+}
+.separadores {
+	margin-left: 7em;
+	margin-right: 7em;
+}
+.segundo-separador {
+	margin-left: 4em;
+	margin-right: 4em;
+}
+.epigrafe-ligas-eeuu {
+	;
+}
+.cuarta-imagen {
+	margin-left: 4em;
+}
+.imagenes-ligas {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.cfl-canadian {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2em;
+}
+.mexico-imagenes {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.Primer-imagen-mexico {
+	margin-right: 5em;
+}
+.imagenes-europa {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 2em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.imagen-brasil {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.imagen-japon {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.imagenes-internacionales {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.primer-imagen-Internacional {
+	margin-right: 5em;
+	margin-bottom: 2em;
+}
+.article-white {
+	background-color: #f3f3f0;
+}
+.article-blue {
+	background-color: #013369;
+	color: #f3f3f0;
+}
+.B-B {
+	width: 200px;
+	height: 200px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.borde-imagen {
+	border-radius: 8px;
+	border: 2px solid #013369;
+	margin-left: 3em;
+	margin-right: 20em;
+}
+.orden-de-imagenes-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
+	border: 2px solid;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: #013369;
+	color: white;
+	margin-left: 7em;
+	margin-right: 7em;
+	border-radius: 15px;
+}
+.orden-de-imagenes-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
+	border: 2px solid;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: #E0192C;
+	color: white;
+	margin-left: 7em;
+	margin-right: 7em;
+	border-radius: 15px;
+}
+.lista-imagenes {
+display: flex;
+	flex-direction: row;
+	/* justify-content: space-evenly; */
+	list-style-type: none;
+}
+.imagen-mail {
+	margin-right: 2em;
+	/* width: 40px; */
+	height: 40px;
+}
+.p-a {
+	width: 170px;
+	height: 170px;
+	vertical-align: middle;
+	margin-right: 8px;
+} 
+.newep {
+	width: 200px;
+	height: 200px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.KCC {
+	width: 170px;
+	height: 170px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
