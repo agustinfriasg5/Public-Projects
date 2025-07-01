@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tiendas Saint John</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <figure>
+                    <img src="img/plata.webp" alt="Sábanas Plata" id="producto">
+                </figure>
+            </article>
+            <article>
+                <form action="comprar.php" method="get">
+                    <section>
+                        <label for="lista">Selecciona un color de sábana:</label>
+                        <select id="lista">
+                            <option value="plata">Plata</option>
+                            <option value="verde">Verde</option>
+                            <option value="azul">Azul</option>
+                            <option value="gris">Gris</option>
+                            <option value="bordo">Bordó</option>
+                        </select>
+                    </section>
+                    <section>
+                        <p>Precio: $<strong id="precio"></strong></p>
+                    </section>
+                    <section>
+                        <input type="submit" value="Comprar ahora">
+                    </section>
+                </form>
+            </article> 
+        </section>
+    </main>
+	<script src="js/miArchivo.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main>section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article {
+    padding: 1em;
+    width: 50%;
+}
+
+figure {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    border: 0.25em solid darkslateblue;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+input, select {
+    display: block;
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, select {
+    padding: 0.5em;
+    border: 0.15em solid #ccc;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 1em;
+    background-color: darkslateblue;
+    color: white;
+    padding: 1em;
+    border: 0;
+    width: 100%;
+}
