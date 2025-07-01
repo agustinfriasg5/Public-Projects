@@ -1,0 +1,29 @@
+* {
+	margin: 0; 
+	padding: 0;
+	border:0;
+	background-color: #C2BFBE;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0.5em;
+	list-style: none;
+	background-color: #013369;
+}
+img {
+	width: 5em;
+	height: 5em;
+}
+li {
+	text-align: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	margin-top: 2em;
+}

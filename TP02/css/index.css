@@ -1,0 +1,132 @@
+* {
+	margin: 0; 
+	padding: 0;
+	border:0;
+}
+.navegador {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* margin: 0.5em; */
+	list-style: none;
+	background-color: #013369;
+}
+img {
+	width: 5em;
+	height: 5em;
+}
+.inicio-barra {
+	text-align: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	/* margin-top: 2em; */
+}
+header {
+	background-color: #013369;
+	color: white;
+}
+h2 {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.primer-parrafo {
+	margin-top: 1em;
+}
+.primer-articulo-historia {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.Primer-imagen {
+	width: 175px;
+	height: 150px;
+}
+.tercer-imagen {
+	width: 175px;
+	height: 150px;
+}
+.cuarta-imagen {
+	width: 175px;
+	height: 150px;
+}
+.primeras-imagenes {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px
+}
+.segundas-imagenes {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+.secprimer-imagen {
+	width: 250px;
+	height: 150px;
+}
+.secsegunda-imagen {
+	width: 250px;
+	height: 150px;
+}
+.sectercer-imagen {
+	width: 250px;
+	height: 150px;
+}
+footer {
+	background-color: #013369;
+    color: white;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.primer-epigrafe {
+	text-align: center;
+	padding-bottom: 1em;
+}
+.segundo-epigrafe {
+	text-align: center;
+	padding-bottom: 1em;
+}
+.parrafos {
+		margin-left: 3em;
+		margin-right: 3em;
+}
+.prorroga {
+	margin-bottom: 2em;
+}
+h3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+.compisicon-de-los-equipos {
+	margin-left: 7em;
+}
+body {
+	background-color: #f3f3f0;
+}
+.inicio-del-partido-y-desarrollo {
+	margin-left: 7em;
+}
+.metodos-de-avance {
+	margin-left: 7em;
+}
+.puntuacion {
+	margin-left: 7em;
+}
+.segunda-lista {
+	margin-left: 4em;
+}
+.faltas-y-penalizaciones {
+	margin-left: 7em;
+}
+.cambios-de-posicion {
+	margin-left: 7em;
+}
+.prorroga {
+	margin-left: 7em;
+}
