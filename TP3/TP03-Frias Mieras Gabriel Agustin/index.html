@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>CineYa</title>
+</head>
+<body>
+	<nav>
+		<ul class="navegador">
+			<li><a href="#banner-imagen">Salto al contenido</a></li>
+			<li><a href="#navegacion-botones">Salto a la navegacion</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1 class="titulo">CINEYA</h1>
+		<nav>
+			<ul class="navegacion" id="navegacion-botones">
+				<li class="barras"><a href="#Inicio">Inicio</a></<li>
+				<li class="barras"><a href="#caracteristicas">Caracteristicas</a></<li>
+				<li class="barras"><a href="#registro">Registro</a></<li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<figure>
+			<img id="banner-imagen" class="banner" src="img/banner.jpg" alt="Peliculas">
+		</figure>
+			<section>
+				<article class="inicio-contenido" id="Inicio">
+					<h2 class="titulos">Inicio</h2>
+					<p>Ve películas y series</p>
+					<br>
+					<p>Disfruta de títulos exclusivos de <strong class="letras">PLATAFORMA STREAMING</strong>, además de películas y series populares, por <strong class="letras">ARS 5,199/mes</strong>, más los impuestos aplicables. Disfruta ahora, cancela en cualquier momento.</p>
+				</article>
+				<article id="caracteristicas">
+					<h2 class="titulos">Caracteristicas</h2>
+				</article>
+				<article class="caracteristicas-img">
+					<figure>
+						<img src="img/carac1.png" alt="Poder ver en cualquier parte">
+						<p class="titulo-img"><strong>Ver en cualquier parte</strong></p>
+						<p>Disfruta desde la web o con la aplicación de <strong class="letras">PLATAFORMA STREAMING</strong> en tu teléfono, tablet o ciertos Smart TV en hasta 3 dispositivos al mismo tiempo.</p>
+					</figure>
+					<figure>
+						<img src="img/carac2.png" alt="Descarga y disfrutas">
+						<p class="titulo-img"><strong>Descarga y disfruta</strong></p>
+						<p>Disfruta de contenido sin conexión con la aplicación<strong class="letras">PLATAFORMA STREAMING</strong> cuando descargues títulos en tu iPhone, iPad, tablet o dispositivo Android.</p>
+					</figure>
+						<figure>
+						<img src="img/carac3.png" alt="Ahorrar datos">
+						<p class="titulo-img2"><strong>Ahorro de datos</strong></p>
+						<p>Controla el uso de datos mientras descargas y ves videos en ciertos teléfonos y tablets.</p>
+					</figure>
+					<p></p>
+				</article>
+				<article class="registro">
+					<h2 class="titulo-registro">Registro</h2>
+					<form action="php/registro.php" method="post" id="registro"> 
+						<section>
+							<br>
+							<label for="Nom">Nombre</label>
+							<input class="Control" placeholder="Nombre Completo"type="text" name="Nombre"id="Nom">
+						</section>
+						<section>
+							<br>
+							<label for="cor">Correo Electronico</label>
+							<input class="Control"placeholder="Correo Electronico" type="email" name="Correo" id="cor">
+						</section>
+						<section>
+							<br>
+							<label for="con">Contraseña</label>
+							<input class="Control" placeholder="Contraseña" type="password" name="Contraseña" id="con">
+						</section>
+						<section>
+							<br>
+							<label for="fdn">Fecha de nacimiento</label>
+							<input class="Control"type="date" name="Fecha de Nacimiento" id="fdn">
+						</section>
+						<section>
+							<br>
+							<label for="tel">Telefono</label>
+							<input class="Control"type="tel" pattern="[0-9]{11}"  name="telefono" id="tel">
+						</section>
+						<br>
+						<input class="boton-enviar" type="submit" value="Registrar">
+					</form>
+		</section>
+		<section>
+			<footer>
+				<figure class="final-pagina">
+					<img class="picture-footer"src="img/mail.png" alt="Email">
+					<a href="mailto:agustinfrias2016@gmail.com">agustinfrias2016@gmail.com</a>
+				</figure>
+				<figure class="final-pagina">
+					<img class="picture-footer"src="img/telefono.png" alt="Telefono">
+					<a href="tel:+543816670592">381-667-0592</a>
+				</figure>
+			</footer>
+		</section>
+	</main>
+</body>
+</html>
