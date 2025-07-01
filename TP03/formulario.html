@@ -1,0 +1,132 @@
+<!Doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/form-estilo.css">
+	<title>Formulario</title>
+</head>
+<body class="linea">
+	<header>
+		<h1>Encuesta</h1>
+	</header>
+	<main>
+		<section
+			<article>
+				<form action="encuesta.php" method="post">
+					<fieldset class="datosp">
+						<legend class="rojo">Datos Personales</legend>
+						<section class="dp-content">
+							<section>
+							<label for="Nom">Nombre</label>
+							<br>
+							<input class="dp-input" maxlength="50" placeholder="Ingrese su nombre completo"type="text" name="Nombre" id="Nom">
+							</section>
+							<section>
+							<label for="Cor">Mail</label>
+							<br>
+							<input class="dp-input" maxlength="50" placeholder="Ingrese su Email"type="email" name="Mail" id="Cor">
+							</section>
+							<section>
+							<label for="fdn">Fecha de Nacimiento</label>
+							<br>
+							<input class="dp-input" type="date" name="Fecha de Nacimiento" id="fdn" value="2000-01-01">
+							</section>
+							<section>
+							<label for="Cel">Celular (Con codigo de Area, sin 0 ni 15)</label>
+							<br>
+							<input class="dp-input" maxlength="10" placeholder="Ej. 38166705922"type="tel" name="Celular" id="Cel">
+							</section>
+						</section>
+					</fieldset>
+					<fieldset class="amarillo">
+						<legend class="amarillo-title">Sobre la carrera</legend>
+						<br>
+						<section class="amarillo-dist">
+							<label for="carr">Indique en que carrera se inscribio originalmente:</label>
+							<select name="carrera" id="carr">
+								<option>Programador universitario</option>
+								<option>Licenciatura en Informatica</option>
+								<option>Ingenieria en Informatica</option>
+								<option>Agrimensura</option>
+							</select>
+							
+						</section> 
+						<br>
+						<section class="amarillo-dist">
+							<legend >¿Recursa la carrera?</legend>
+							<br>
+							<section class="amarillo-sino">
+								<input class="rlc-sino"type="radio" name="Opcion" id="SI">
+								<label for="SI">SI</label>
+								<br>
+								<input class="rlc-sino"type="radio" name="Opcion" id="NO" checked>
+								<label for="NO">NO</label>
+							</section>
+						</section>
+						<section class="amarillo-dist">
+						<legend >Materias que cursa</legend>
+							<section class="amarillo-mqc">
+								<input class="amarillo-checkbox" type="checkbox" name="Opciones" id="Alg">
+								<label for="Alg">Algebra</label>
+								<br>
+								<input class="amarillo-checkbox" type="checkbox" name="Opciones" id="CalI">
+								<label for="CalI">Calculo I</label>
+								<br>
+								<input class="amarillo-checkbox" type="checkbox" name="Opciones" id="LabI"checked>
+								<label for="LabI">Laboratorio I</label>
+								<br>
+								<input class="amarillo-checkbox" type="checkbox" name="Opciones" id="ecl">
+								<label for="ecl">Elementos de computacion y logica</label>
+								<br>
+								<input class="amarillo-checkbox" type="checkbox" name="Opciones" id="Otr">
+								<label for="Otr">Otras</label>
+								<br>
+							</section>
+						</section>
+						
+					</fieldset>
+					<fieldset class="verde">
+						<legend class="verde-title">Sobre las materias</legend>
+						<br>
+						<section class="verde-dist">
+							<legend>Indique el horario de la comision practica a la que asiste:</legend>
+						</section>
+						<br>
+						<section class="verde-dist">
+							<label for="dia">Dia:</label>
+							<select class="verde-borde" name="dias" id="dia">
+								<option>Lunes</option>
+								<option>Martes</option>
+								<option>Miercoles</option>
+								<option>Viernes</option>
+							</select>
+						</section>
+						<br>
+						<section class="verde-dist">
+							<legend for="hor">Hora</legend>
+							<input  class="verde-borde"type="time" name="Hora" id="hor">
+						</section>
+						<br>
+						<section class="verde-dist">
+							<legend>Indique el grado de satisfaccion respecto a la materia</legend>
+							<label for="sclm">(Bajo)
+							<input  class="verde-borde"type="range" name="Satisafaccion con la materia"max="100" min="0" step="10" id="sclm">
+							(Alto)</label>
+						</section>
+						<br>
+						<section class="verde-final">
+						<label for="puntaje"> ¿Del 1 al 10 como calificaria al dictado de la materia? </label>
+							<input  class="verde-borde"type="number" step ="1" id ="puntaje" name="Puntuacion" value="5" min="1" max="10">
+						</section>
+					</fieldset>
+					<br>
+					<section class="boton-submit">
+					<input class="enviar" type="submit" name="enviar">
+					<input class="limpiar" type="reset" name="Limpiar" value="Limpiar">
+					</section>
+				</form>
+			</article>
+		</section>
+	</main>
+</body>
+</html>
