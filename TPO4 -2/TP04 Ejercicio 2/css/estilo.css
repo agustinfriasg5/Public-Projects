@@ -1,0 +1,67 @@
+/* CSS GENERAL */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+table {
+	width: 60vw;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+#articulo-principal {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+th, td {
+	border: 3px solid black;
+	text-align: center;
+	color: white;
+}
+td {
+	width: 15vw;
+}
+tr td:hover{
+	color: yellow;
+	background-color: black;
+}
+.celeste {
+	background-color: #418be2;
+	text-align: center;
+	color: white;
+	width: 1vw;
+}
+.celeste:hover {
+	color: white;
+	background-color: #418be2;
+}
+.head {
+	background-color: #418be2;
+	color: white;
+}
+.letra-dorada {
+	color: #f39f1e;
+}
+.fondo-ama {
+	background-color: #d1c211;
+}
+.fondo-azul {
+	background-color: #0a4e76;
+}
+.fondo-mora {
+	background-color: #900eda;
+}
+.fondo-marr {
+	background-color: #713f28;
+}
+h1 {
+	text-align: center;
+	margin: 1em 0 1em 0;
+	text-decoration: underline;
+}
+caption {
+	font-size: 20px;
+	margin: 0.5em 0 1em 0;
+	text-decoration: underline;
+}
